@@ -6,8 +6,10 @@
 
 In this homework assignment, you will practice:
 
-- Using the Iterable and Iterator interfaces
 - Implementing the Comparison protocol
+- Using the Iterable and Iterator interfaces
+- Tracing a recursive function
+- Writing a recursive function
 
 You can find the instructions for each question in the corresponding files in the `src` directory. The corresponding tests are in the `tests` directory.
 
