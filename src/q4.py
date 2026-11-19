@@ -11,4 +11,7 @@ Example usage:
             ['pine apple pen apple', 'pineapple pen apple', 'pine applepen apple']
 
 Make sure to write tests in the tests directory.
+The order of elements in the returned list does not matter, and your tests should account for that.
+An empty list should be returned if there are no possible segmentations (or if the input sentence 
+is empty). String matching should be case-sensitive; "i" and "I" are considered different words.
 """

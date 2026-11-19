@@ -13,7 +13,8 @@ The constructor for the SearchResult class should take the following parameters,
 
 The class should implement the __eq__ and __lt__ methods to allow comparison based on relevance.
 Relevance is measured as the number of times the search term appears in the title of the result.
-More relevant results are considered "greater" than less relevant results.
+More relevant results are considered "greater" than less relevant results. Please ignore case 
+when counting matching search terms.
 If two SearchResults have the same relevance, they should be compared based on their date, with 
 more recent results considered "greater."
 If two SearchResults have the same relevance and date, they are considered equal.
